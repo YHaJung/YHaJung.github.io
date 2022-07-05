@@ -2,10 +2,12 @@
 main: # url엔 상대경로와 절대경로 모두 가능
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title : "Home"
+    url : "/"
   - title: "Category"
     url: /categories/
   - title : "Tag"
     url : /tags/
-  - title: "Year Archive"
+  - title: "All Posts"
     url: /year-archive/
   
