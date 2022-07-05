@@ -289,5 +289,5 @@ defaults:
       read_time: true
       comments: # true
       share: false
-      related: true
+      related: false
       show_date : true
