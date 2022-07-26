@@ -42,17 +42,19 @@ _config.yml 파일을 열어, url 항목에서 주석을 지워 "https://(자신
 깃블로그를 로켈에서 수정하고, github에 반영하기 전 로컬에서 확인해볼 수 있도록 하는 작업이다.
 
 https://jekyllrb.com/docs/ 를 따라 필요한 프로그램들을 다운로드 한다.
-- ruby 다운로드
+- ruby 다운로드  
 https://rubyinstaller.org/ 에서 파일 다운로드 및 실행한다.
 ![](https://velog.velcdn.com/images/recoder/post/4c33c9c9-33fa-4ed9-b26c-f12d58c34acb/image.png)
 ![](https://velog.velcdn.com/images/recoder/post/7c9518a8-8715-4210-9f32-d32a0d3b4293/image.png)
 
-기본 설정을 따라서 설치를 진행하면, 아래와 같은 창이 뜬다. 여기에 3을 입력하고 enter를 누른다.
+- 기본 설정을 따라서 설치를 진행하면, 아래와 같은 창이 뜬다. 여기에 3을 입력하고 enter를 누른다.  
 ![](https://velog.velcdn.com/images/recoder/post/077e979b-00eb-4160-8f7a-5af6c15ead28/image.png)
 
 설치가 완료되면 종료한다.(enter 입력시 종료됨)
 
-- jekyll과 bundler 설치
+> 위는 Window에서 ruby를 설치하는 방법이다. 만약 Ubuntu에서 설치를 하고 싶다면 [우분투에 ruby 설치하기](https://yhajung.github.io/blog/install-ruby-on-ubuntu/) 를 참고하자.
+
+- jekyll과 bundler 설치 
 cmd 혹은 terminal에 아래 명령어를 입력한다.
 ```
 gem install jekyll bundler
