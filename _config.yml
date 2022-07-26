@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"   # 언어지정. 국가별 언어코드
-title                    : "Memory"  # 블로그 이름
+title                    : "Recoder"  # 블로그 이름
 title_separator          : "-"
 subtitle                 : "기억은 나 대신 컴퓨터가" # site tagline that appears below site title in masthead
 name                     : "Hajung"   # 하단 작성자
@@ -138,9 +138,9 @@ footer:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/YHaJung"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/YHaJung"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
