@@ -1,9 +1,9 @@
 ---
 title: "Ubuntu 우분투에 ruby 설치하기"
 categories:
-  - blog
-tags:
   - 사용법
+tags:
+  - blog
 ---
 
 

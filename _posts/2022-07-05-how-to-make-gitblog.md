@@ -1,9 +1,9 @@
 ---
 title: "깃블로그 만들기"
 categories:
-  - blog
-tags:
   - 사용법
+tags:
+  - blog
 ---
 
 
