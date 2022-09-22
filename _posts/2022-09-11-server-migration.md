@@ -3,7 +3,9 @@ title: "scp로 파일을 다른 서버로 옮기기"
 categories:
   - 서버
 tags:
-  - linux
+  - bash
+  - data
+  - server
 ---
 
 ## 기본
