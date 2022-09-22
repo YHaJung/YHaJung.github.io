@@ -1,6 +1,6 @@
 ---
 title : "numpy 데이터를 외부파일로 저장하기(save)"
-category :
+categories :
     - python
 tags : 
     - python

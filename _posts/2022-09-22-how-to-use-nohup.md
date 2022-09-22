@@ -1,8 +1,8 @@
 ---
 title : "nohup을 이용한 백그라운드 실행법"
-category:
+categories:
     - 사용법
-tag:
+tags:
     - bash
 ---
 
