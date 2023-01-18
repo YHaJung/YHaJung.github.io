@@ -9,3 +9,7 @@
 bundle exec jekyll serve
 ```
 
+- 이미지 크기 및 위치 조정
+```
+![title](/img/myImg.png){: width="50%" height="50%"){: .center}
+```
