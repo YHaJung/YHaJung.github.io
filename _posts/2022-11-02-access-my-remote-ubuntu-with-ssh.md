@@ -28,7 +28,7 @@ inet addr: 뒤에 오는 000.000.0.000 형식의 숫자이다. 이 숫자를 기
 - 설치 여부 확인
 
 ```bash
-apt list openssh*
+sudo apt list openssh*
 ```
 
 `openss-client`와 `openssh-server`에 `[installed]`가 붙어있으면 설치되어 있는 것이다.
@@ -41,7 +41,7 @@ apt list openssh*
 설치되어 있지 않으면 직접 설치해준다.
 
 ```bash
- apt install openssh-server
+sudo apt install openssh-server
 ```
 
 - 서비스 실행 확인하기
@@ -73,15 +73,15 @@ iptables -nL
 - 방화벽 상태와 허용 여부 확인
 
 ```bash
-ufw status
+sudo ufw status
 # sudo apt install ufw # ufw가 없다면 설치
 ```
 
 - 방화벽 활성화
 
 ```bash
-ufw enable
-ufw allow 22/tcp
+sudo ufw enable
+sudo ufw allow 22/tcp
 ```
 
 ![image](https://user-images.githubusercontent.com/49065638/199445557-a39ca3f1-1284-4d0e-9999-75655158efcd.png)
