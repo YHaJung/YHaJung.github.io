@@ -6,8 +6,6 @@ tags:
 - c++
 ---
 
-# 
-
 ## Exceptions
 
 - 예외적 상황에 반응
