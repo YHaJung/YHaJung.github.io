@@ -1,9 +1,10 @@
 --- 
-title : "Single-Source Shortest Path : Bellman-Fold, DAG, Dijkstra"
+title : "[Algorithm] Single-Source Shortest Path : Bellman-Fold, DAG, Dijkstra"
 categories:
-- 
+- Algorithm
 tags:
-- 
+- c++
+- algorithm
 ---
 
 # Shortest Path

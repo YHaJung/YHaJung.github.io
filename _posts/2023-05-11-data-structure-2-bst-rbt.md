@@ -1,9 +1,10 @@
 --- 
-title : "자료구조2 : BST, RBT (1)"
+title : "[Algorithm] 자료구조2 : BST, RBT (1)"
 categories:
-- 
+- Algorithm
 tags:
-- 
+- c++
+- algorithm
 ---
 
 ## BST (Binary Search Tree)

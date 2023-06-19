@@ -71,7 +71,7 @@ def set_post_content(dir, new_filename):
             category = title.split(']')[0][1:]
         else:
             category = ''
-        lines[0] = f"--- \ntitle : \"{title}\"\ncategories:\n- {category}\ntags:\n- {category}\n---\n"
+        lines[0] = f"--- \ntitle : \"{title}\"\ncategories:\n- {category}\ntags:\n- {category.lower()}\n---\n"
     
     for line_idx, line in enumerate(lines): # set image path
         if ".png)" in line:

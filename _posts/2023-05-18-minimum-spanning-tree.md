@@ -1,9 +1,10 @@
 --- 
-title : "Minimum Spanning Tree(MST) Problem : Cut, Prim’s, Kruskal’s"
+title : "[Algorithm] Minimum Spanning Tree(MST) Problem : Cut, Prim’s, Kruskal’s"
 categories:
-- 
+- Algorithm
 tags:
-- 
+- c++
+- algorithm
 ---
 
 - Spanning Tree

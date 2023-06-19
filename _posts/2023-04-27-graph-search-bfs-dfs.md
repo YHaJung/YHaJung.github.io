@@ -1,9 +1,10 @@
 --- 
-title : "Graph Search : BFS, DFS"
+title : "[Algorithm] Graph Search : BFS, DFS"
 categories:
-- 
+- Algorithm
 tags:
-- 
+- c++
+- algorithm
 ---
 
 ## BFS : Breadth First Search 넓이 우선 탐색

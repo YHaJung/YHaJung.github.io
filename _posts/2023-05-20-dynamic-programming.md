@@ -1,9 +1,10 @@
 --- 
-title : "Dynamic Programming"
+title : "[Algorithm] Dynamic Programming"
 categories:
-- 
+- Algorithm
 tags:
-- 
+- c++
+- algorithm
 ---
 
 ## Divide and Conquer

@@ -1,9 +1,10 @@
 --- 
-title : "자료구조1 : Graph, Binary Tree, Heap, Priority Queues"
+title : "[Algorithm] 자료구조1 : Graph, Binary Tree, Heap, Priority Queues"
 categories:
-- 
+- Algorithm
 tags:
-- 
+- c++
+- algorithm
 ---
 
 ## Graph

@@ -1,5 +1,5 @@
 ---
-title : "[algorithm] Algorithm Complexity"
+title : "[Algorithm] Algorithm Complexity"
 categories:
 - Algorithm
 tags:
