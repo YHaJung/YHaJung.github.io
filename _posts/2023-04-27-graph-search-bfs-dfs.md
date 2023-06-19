@@ -1,4 +1,10 @@
-# Graph Search : BFS, DFS
+--- 
+title : "Graph Search : BFS, DFS"
+categories:
+- 
+tags:
+- 
+---
 
 ## BFS : Breadth First Search 넓이 우선 탐색
 
@@ -11,11 +17,11 @@
     - source 지정해서 시작
 - 예시
 
-![Untitled](Graph%20Search%20BFS,%20DFS%206de899767d124ee9879c8baf79c35d81/Untitled.png)
+![Untitled](../../assets/images/2023-04-27-graph-search-bfs-dfs/Untitled.png)
 
 - Pseudo Code
     
-    ![Untitled](Graph%20Search%20BFS,%20DFS%206de899767d124ee9879c8baf79c35d81/Untitled%201.png)
+    ![Untitled](../../assets/images/2023-04-27-graph-search-bfs-dfs/Untitled%201.png)
     
 - Complexity : $O(V+E)$
     - init : $\theta(V)$
@@ -29,11 +35,11 @@
     - source 지정 없이, 랜덤한 노드에서 시작
 - 예시
     
-    ![Untitled](Graph%20Search%20BFS,%20DFS%206de899767d124ee9879c8baf79c35d81/Untitled%202.png)
+    ![Untitled](../../assets/images/2023-04-27-graph-search-bfs-dfs/Untitled%202.png)
     
 - Pseudo Code
     
-    ![Untitled](Graph%20Search%20BFS,%20DFS%206de899767d124ee9879c8baf79c35d81/Untitled%203.png)
+    ![Untitled](../../assets/images/2023-04-27-graph-search-bfs-dfs/Untitled%203.png)
     
 
 ### DFS 활용 : Topological Sort
@@ -47,7 +53,7 @@
 - cycle을 이루게 되는 묶음
 - a→b로 가는 경로가 있을 때, b→a로 가는 경로도 있으면 a와 b는 strongly connected
 
-![Untitled](Graph%20Search%20BFS,%20DFS%206de899767d124ee9879c8baf79c35d81/Untitled%204.png)
+![Untitled](../../assets/images/2023-04-27-graph-search-bfs-dfs/Untitled%204.png)
 
 - Graph Transpose 통해 구할 수 있다.
     - GraphTranspose : 모든 E의 방향만 바꾼다.
@@ -71,7 +77,7 @@
 - Component Graph
     - strongly connect component끼리 묶어서 하나의 노드 취급하여, 새로운 그래프 만들기
         
-        ![Untitled](Graph%20Search%20BFS,%20DFS%206de899767d124ee9879c8baf79c35d81/Untitled%205.png)
+        ![Untitled](../../assets/images/2023-04-27-graph-search-bfs-dfs/Untitled%205.png)
         
     - 여기선 같은 노드간의 →가 있으면, 그 역은 없다.
     - c’ →c 이면, finish time f(c’) > f(c)
