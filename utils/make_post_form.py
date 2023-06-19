@@ -14,8 +14,8 @@ def set_post_filename(dir, filename):
 
 def set_image_path(dir, origin_filename, new_filename):
     import os
-    origin_dir = os.path.join(dir, origin_filename).rstrip('.md')
-    new_dir = os.path.join(dir, new_filename).rstrip('.md')
+    origin_dir = os.path.join(dir, origin_filename)[:-3]
+    new_dir = os.path.join(dir, new_filename)[:-3]
     os.makedirs(new_dir, exist_ok=True)
 
     img_names = os.listdir(origin_dir)
@@ -72,8 +72,6 @@ def set_post_form(dir = '_posts', img_dir = 'assets/images'):
             set_image_path(img_dir, filename, new_filename)
             set_post_content(dir, new_filename)
             print(new_filename)
-            break
-
     
 
 if __name__=='__main__':
