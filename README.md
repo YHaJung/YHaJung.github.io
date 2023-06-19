@@ -13,3 +13,9 @@ bundle exec jekyll serve
 ```
 ![title](/img/myImg.png){: width="50%" height="50%"){: .center}
 ```
+
+## notion에서 불러온 파일
+- unzip
+```
+unzip -O cp949 [파일명].zip # 한글 안 깨지게 압축해제
+```
