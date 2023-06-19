@@ -1,10 +1,38 @@
 
+def translate_to_english(line):
+    import googletrans
+    translator = googletrans.Translator()
+    again_flag = True
+    while again_flag:
+        try:
+            new_line = translator.translate(line, src='ko', dest='en').text
+            again_flag = False
+        except:
+            again_flag = True
+    return new_line
+
+def ask_filename_for_user(origin_filename, new_filename):
+    print(origin_filename)
+    print(new_filename)
+    key = None
+    while key not in ['1', '2']:
+        key = input("Do you want to change? Pass(1), Change(2) ")
+
+    if key == '1':
+        return new_filename
+    else:
+        new_filename = input("Enter new filename : ")
+        return new_filename
+
+
 def set_post_filename(dir, filename):
     import os, re
     from datetime import datetime
-    new_filename = str(datetime.today())[:11]+filename.lower()
+    new_filename = translate_to_english(filename)
+    new_filename = str(datetime.today())[:11]+new_filename.lower()
     new_filename = re.sub(r'[,()]', "", new_filename)
     new_filename = "-".join(new_filename.split(' ')[:-1])+".md"
+    new_filename = ask_filename_for_user(filename, new_filename)
 
     os.rename(
             os.path.join(dir, filename),
