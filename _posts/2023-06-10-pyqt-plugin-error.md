@@ -1,13 +1,11 @@
 --- 
-title : "[Debug] pyqt error : qt.qpa.plugin: could not load the qt platform plugin "xcb" in "" even though it was found."
+title : "[Debug] pyqt error : qt.qpa.plugin: could not load the qt platform plugin \"xcb\" in \"\" even though it was found."
 categories:
 - Debug
 tags:
 - debug
 - pyqt
 ---
-
-
 
 ```bash
 pip install pyqt5
