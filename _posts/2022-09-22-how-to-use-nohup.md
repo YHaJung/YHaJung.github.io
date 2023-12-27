@@ -6,6 +6,14 @@ tags:
     - bash
 ---
 
+
+### 요약
+
+```bash
+#nohup 명령어 -u 실행파일 > 출력파일경로.out &
+nohup python -u train.py > log/train01.out &
+```
+
 ### 사용 시 장점
 
 - 백그라운 실행 → 컴퓨터나 창을 종료해도 계속 코드 작동
@@ -25,6 +33,17 @@ tags:
     nohup python main.py --lr=0.5 &
     ```
     
+
+### 즉시 출력
+
+- nohup 사용 시, 출력이 실시간으로 안 찍히고 나중에 몰아서 나오는 경우가 자주 발생한다. 이를 해결하기 위해선 아래 코드를 사용한다.
+    
+    ```bash
+    nohup python -u train.py &
+    tail -f nohup.out
+    ```
+    
+- shell 파일을 사용할 경우, sh -u xx.sh가 아닌 파일 속 python 명령어에 -u를 입력하여야 한다.
 
 ### 출력 파일 명 설정
 
