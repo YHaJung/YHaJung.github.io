@@ -40,7 +40,6 @@ nohup python -u train.py > log/train01.out &
     
     ```bash
     nohup python -u train.py &
-    tail -f nohup.out
     ```
     
 - shell 파일을 사용할 경우, sh -u xx.sh가 아닌 파일 속 python 명령어에 -u를 입력하여야 한다.
