@@ -61,6 +61,7 @@ _config.yml 파일을 열어, url 항목에서 주석을 지워 "https://(자신
 cmd 혹은 terminal에 아래 명령어를 입력한다.
 ```
 gem install jekyll bundler
+bundle install
 ```
 
 - local server 구동하기
